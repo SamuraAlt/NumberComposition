@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace = "com.altov.vlad.numbercomposition"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.altov.vlad.numbercomposition"
         minSdk = 24
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
