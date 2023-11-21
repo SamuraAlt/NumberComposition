@@ -17,6 +17,7 @@ import com.altov.vlad.numbercomposition.domain.usecases.GetGameSettingsUseCase
 class GameViewModel(application: Application) : AndroidViewModel(application) {
 
     private lateinit var gameSettings: GameSettings
+
     private lateinit var level: Level
 
     private val context = application

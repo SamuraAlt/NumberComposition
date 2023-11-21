@@ -18,6 +18,7 @@ import com.altov.vlad.numbercomposition.domain.entity.Level
 class GameFragment : Fragment() {
 
     private lateinit var level: Level
+
     private val viewModel by lazy {
         ViewModelProvider(
             this,
